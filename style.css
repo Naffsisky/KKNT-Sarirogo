@@ -75,7 +75,7 @@ h4 {
 .sublink {
   display: flex;
   flex-direction: column;
-  align-items: items-center;
+  align-items: center;
   text-align: center;
   gap: 10px;
 }
@@ -86,7 +86,7 @@ h4 {
   border-bottom: 2px solid white;
   display: flex;
   flex-direction: column;
-  align-items: items-center;
+  align-items: center;
   text-align: center;
   gap: 10px;
 }
