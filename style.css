@@ -17,6 +17,8 @@ h4 {
   color: white;
   text-align: center;
   padding-top: 20px;
+
+  letter-spacing: 0.2rem;
 }
 .tandos {
   color: #ed3ef7;
@@ -30,6 +32,7 @@ h4 {
   text-align: center;
   color: #fff6ea;
   padding-top: 20px;
+  padding-bottom: 10px;
   border-top: 1px solid white;
 }
 
@@ -55,33 +58,48 @@ h4 {
 .marquee {
   padding: 10px;
   font-size: 20px;
-  /* font-family: Cursive, sans-serif; */
-  font-family: sans-serif;
+  font-family: Cursive, sans-serif;
+  /* font-family: sans-serif; */
 }
 
 .link {
   /* text-decoration: none; */
   color: #feecb3;
+  padding: 0px;
 }
 .link:hover {
   color: white;
+  transform: scale(1.1);
+}
+
+.sublink {
+  display: flex;
+  flex-direction: column;
+  align-items: items-center;
+  text-align: center;
+  gap: 10px;
 }
 
 .daftar-isi {
   padding-top: 20px;
+  padding-bottom: 20px;
   border-bottom: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: items-center;
+  text-align: center;
+  gap: 10px;
 }
 
 .daftar-isi h3 {
-  text-align: center;
   color: white;
   font-family: Monospace;
   letter-spacing: 0.5rem;
 }
 
-.daftar-isi p {
-  color: #fff6ea;
-  text-align: center;
+.daftar-isi a {
+  color: #feecb3;
+  font-size: 25px;
 }
 .section {
   padding-top: 20px;
@@ -108,4 +126,25 @@ h4 {
 }
 .img img {
   border-radius: 10px;
+}
+
+.circular-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  padding-bottom: 20px;
+}
+
+.copyright {
+  color: #feecb3;
+  font-family: Monospace;
+  text-align: center;
+  font-size: 20px;
 }
